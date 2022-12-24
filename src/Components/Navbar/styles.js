@@ -12,14 +12,15 @@ export const Nav = styled.nav`
     position: fixed;
     top: 0px;
 
-
     div{
-        width: 90%;
-        height: 95%;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background: ${variables.colors.blue};
+        border-bottom: 2px solid #fff;
+        padding: 0 1rem;
 
         figure img{
             width: 50px;
@@ -38,7 +39,6 @@ export const Nav = styled.nav`
        align-items: center;
        flex-direction: column;
        background: ${variables.colors.blue};
-       border-top: 2px solid #fff;
        transition: .5s ease-in-out ;
 
 
