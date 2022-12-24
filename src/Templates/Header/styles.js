@@ -1,5 +1,5 @@
-import { variables } from '../Styles/Variables';
-import { ChangebackGround } from '../Styles/Animations';
+import { variables } from '../../Styles/Variables';
+import { ChangebackGround } from '../../Styles/Animations';
 import styled from 'styled-components';
 
 export const HeaderStyle = styled.main`
