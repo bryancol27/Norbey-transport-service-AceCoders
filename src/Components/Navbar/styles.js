@@ -11,6 +11,7 @@ export const Nav = styled.nav`
     align-items: center;
     position: fixed;
     top: 0px;
+    z-index: 4;
 
     div{
         width: 100%;

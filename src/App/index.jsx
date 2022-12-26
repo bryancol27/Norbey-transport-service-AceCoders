@@ -6,6 +6,7 @@ import { Navbar } from "../Components/Navbar";
 //import Templates
 import { Header } from "../Templates/Header";
 import { AboutUS } from "../Templates/AboutUs";
+import { Experience } from "../Templates/Experience";
 
 //UI Aplication
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Navbar/>
             <Header/>
             <AboutUS/>
+            <Experience/>
         </React.Fragment>
     );
 };
