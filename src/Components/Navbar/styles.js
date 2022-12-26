@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 //import variables colors
-import { variables } from "../../Styles/Variables";
+import { variables } from '../../Styles/Variables';
 
 export const Nav = styled.nav`
     width: 100%;
@@ -10,6 +10,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 3;
     top: 0px;
     z-index: 4;
 
