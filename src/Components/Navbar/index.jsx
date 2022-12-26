@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 //import icons
 import { AlignRight } from 'react-feather';
-import { Nav } from "./styles";
+import { Nav } from './styles';
 
 const Navbar = () => {
 
@@ -10,7 +10,7 @@ const Navbar = () => {
     const toggleClickNav = () =>{
         setToggle(!toggle);
         console.log(toggle);
-    }
+    };
 
     return(
         <Nav>
