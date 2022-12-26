@@ -3,9 +3,10 @@ import React from 'react';
 import { GlobalStyles } from '../Styles/GlobalStyles';
 //import Components
 import { Navbar } from '../Components/Navbar';
+import { Footer } from '@components/Footer';
 //import Templates
-import { Header } from "../Templates/Header";
-import { AboutUS } from "../Templates/AboutUs";
+import { Header } from '../Templates/Header';
+import { AboutUS } from '../Templates/AboutUs';
 
 //UI Aplication
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Navbar/>
             <Header/>
             <AboutUS/>
+            <Footer/>
         </React.Fragment>
     );
 };
