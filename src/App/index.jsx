@@ -1,12 +1,16 @@
 import React from 'react';
 //import Globalstyles
 import { GlobalStyles } from '../Styles/GlobalStyles';
+
 //import Components
 import { Navbar } from '../Components/Navbar';
 import { Footer } from '@components/Footer';
+
 //import Templates
 import { Header } from '../Templates/Header';
 import { AboutUS } from '../Templates/AboutUs';
+import { Experience } from '@templates/Experience';
+import { Testimonials } from '@templates/Testimonials'; 
 
 //UI Aplication
 const App = () => {
@@ -17,6 +21,8 @@ const App = () => {
             <Navbar/>
             <Header/>
             <AboutUS/>
+            <Experience/>
+            <Testimonials/>
             <Footer/>
         </React.Fragment>
     );

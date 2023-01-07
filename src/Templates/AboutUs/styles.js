@@ -4,15 +4,15 @@ import { variables } from '../../Styles/Variables';
 
 export const AboutUsTemplate = styled.section`
     width: 100%;
-    height: 80vh;
-    position: relative;
+
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
 
     div {
         width: 80%;
+        max-width: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -20,22 +20,39 @@ export const AboutUsTemplate = styled.section`
         gap: 1rem;
         margin-top: 50px;
 
-        h1{
+        h1 {
             color: ${variables.colors.blue};
             font-size: 2rem;
+            font-weight: 800;
         }
-        p{
+        p {
             text-align: center;
             color: ${variables.colors.text};
         }
     }
 
-    figure{
-        position: absolute;
-        bottom: -20px;
+    figure {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
 
-        img{
-            width: 200px;
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+
+    @media (min-width: 850px) {
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 100px;
+
+        figure {
+            img {
+                max-width: 300px;
+                padding: 75px 0 0;
+            }
         }
     }
 `;
