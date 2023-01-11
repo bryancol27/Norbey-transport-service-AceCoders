@@ -13,19 +13,18 @@ export const TestimonialsContainer = styled.section`
     align-items: center;
 
     h2 {
-        font-size: 45px;
         text-transform: uppercase;
         color: ${variables.colors.blue};
-
+        font-weight: 700;
+        font-size: 40px;
         margin-bottom: 25px;
     }
 
     p {
-        font-size: 28px;
         text-align: center;
         color: ${variables.colors.text};
-
-        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 22px;
     }
 
     .testimonials__cards {
@@ -36,7 +35,7 @@ export const TestimonialsContainer = styled.section`
 
         &__card {
             width: 100%;
-            height: 174px;
+            height: 140px;
             position: relative;
             border-radius: 20px;
             padding: 10px;
@@ -55,7 +54,7 @@ export const TestimonialsContainer = styled.section`
             }
 
             .person-img {
-                width: 125px;
+                width: 100px;
             }
 
             .texts {

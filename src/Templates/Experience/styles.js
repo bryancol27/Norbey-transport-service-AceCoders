@@ -47,10 +47,12 @@ export const ExperienceTemplate = styled.section`
                 gap: 10px;
 
                 p.text {
-                    text-align: center;
+                    text-align: left;
                     font-size: 17px;
                     max-width: 300px;
                     color: #416374;
+                    font-weight: 500;
+                    font-size: 17px;
 
                     @media (min-width: 950px) {
                         max-width: 500px;

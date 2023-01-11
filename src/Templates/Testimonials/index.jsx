@@ -11,7 +11,7 @@ const Testimonials = () => {
         <TestimonialsContainer>
             <h2>Testimonials</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi minus facilis, atque facere eum praesentium culpa doloremque a sapiente ipsa laborum ut at dolorem. Velit debitis quo repellendus soluta.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit el son Velit debitis quo repellendus soluta.</p>
 
             <div className='testimonials__cards'>
 
