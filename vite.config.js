@@ -32,6 +32,7 @@ export default defineConfig({
             '@utils': path.resolve(__dirname, './src/Utils'),
             '@context': path.resolve(__dirname, './src/Context'),
             '@pages': path.resolve(__dirname, './src/Pages')
+            
         }
     }
 });

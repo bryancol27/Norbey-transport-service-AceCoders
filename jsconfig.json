@@ -8,7 +8,7 @@
             "@templates/*": ["Templates/*"],
             "@utils/*": ["Utils/*"],
             "@context/*": ["Context/*"],
-            "@pages/*": ["Pages/*"]
+            "@pages/*": ["Pages/*"],
         }
     }
 }

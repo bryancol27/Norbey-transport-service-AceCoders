@@ -4,9 +4,14 @@ import { SectionServices } from "./styles";
 // // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./styleSwiper/swiper.css";
-
-// import required modules
+import "swiper/css/bundle";
 import { Pagination } from "swiper";
+
+//import DATASERVICES
+import { dataServices } from "@utils/data";
+
+//import feather icons
+import { ExternalLink, Truck} from 'react-feather';
 
 const Services = () => {
     return (
@@ -22,16 +27,23 @@ const Services = () => {
                     modules={[Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>Slide 1</SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+                    ${dataServices.map((data, i) => <SwiperSlide key={i}>
+
+                        <div>
+                            <figure>
+                                <img src={data.img} alt={data.name} />
+                                <h5>{data.name}</h5>
+                            </figure>
+                        </div>
+
+                    </SwiperSlide>)};
                 </Swiper>
+            </div>
+
+            <div className="servicesContain_Buttons">
+                
+                <button><ExternalLink color="#fff" size={18} />View More</button>
+                <button><Truck color="#fff" size={18} />View Cars</button>
             </div>
         </SectionServices>
     )
