@@ -13,10 +13,9 @@ export const TestimonialsContainer = styled.section`
     align-items: center;
 
     h2 {
-        text-transform: uppercase;
         color: ${variables.colors.blue};
         font-weight: 700;
-        font-size: 40px;
+        font-size: 60px;
         margin-bottom: 25px;
     }
 

@@ -11,6 +11,7 @@ import { Header } from '../Templates/Header';
 import { AboutUS } from '../Templates/AboutUs';
 import { Experience } from '@templates/Experience';
 import { Testimonials } from '@templates/Testimonials'; 
+import { Services } from '@templates/Services';
 
 //UI Aplication
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
             <AboutUS/>
             <Experience/>
             <Testimonials/>
+            <Services/>
             <Footer/>
         </React.Fragment>
     );
