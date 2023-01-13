@@ -9,7 +9,6 @@ const Navbar = () => {
 
     const toggleClickNav = () =>{
         setToggle(!toggle);
-        console.log(toggle);
     };
 
     return(
@@ -20,7 +19,7 @@ const Navbar = () => {
                 </figure>
                 <AlignRight color="#fff" size={40} onClick={toggleClickNav}/>
             </div>
-            <div className={(!toggle) ? 'vissible' : 'hidden' }>
+            <div className={(toggle) ? 'vissible' : 'hidden' }>
                 <a href="">INICIO</a>
                 <a href="">ABOUT US</a>
                 <a href="">EXPERIENCE</a>

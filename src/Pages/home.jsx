@@ -14,13 +14,11 @@ import { Services } from '@templates/Services';
 const Home = () => {
     return (
         <React.Fragment>
-            <Navbar />
             <Header />
             <AboutUS />
             <Experience />
             <Testimonials />
             <Services />
-            <Footer />
         </React.Fragment>
     )
 }

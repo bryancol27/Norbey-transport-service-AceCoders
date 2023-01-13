@@ -11,9 +11,19 @@ import { Pagination } from "swiper";
 import { dataServices } from "@utils/data";
 
 //import feather icons
-import { ExternalLink, Truck} from 'react-feather';
+import { ExternalLink, Truck, MapPin} from 'react-feather';
+
+//import navigation for redirects
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+
+    const navigator = useNavigate();
+
+    const goCar = () =>{
+        navigator('/car');
+    }
+
     return (
         <SectionServices>
             <h1>Services</h1>
@@ -32,7 +42,7 @@ const Services = () => {
                         <div>
                             <figure>
                                 <img src={data.img} alt={data.name} />
-                                <h5>{data.name}</h5>
+                                <h5> <MapPin color="#fff" size={18}/> {data.name}</h5>
                             </figure>
                         </div>
 
@@ -43,7 +53,7 @@ const Services = () => {
             <div className="servicesContain_Buttons">
                 
                 <button><ExternalLink color="#fff" size={18} />View More</button>
-                <button><Truck color="#fff" size={18} />View Cars</button>
+                <button onClick={goCar}><Truck color="#fff" size={18} />View Cars</button>
             </div>
         </SectionServices>
     )

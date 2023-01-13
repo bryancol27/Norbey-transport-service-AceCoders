@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import { variables } from '@styles/Variables';
 
 export const FooterContainer = styled.footer`
+    position: relative;
+    bottom: 0px;
+    width: 100%;
     background-color: ${variables.colors.black};
     display: flex;
     flex-direction: column;
@@ -19,7 +22,7 @@ export const FooterContainer = styled.footer`
 
         h2 {
             font-size: 34px;
-            font-weigth: 700;
+            font-weight: 700;
             color: ${variables.colors.background};
         }
 
@@ -29,7 +32,7 @@ export const FooterContainer = styled.footer`
 
             img {
                 width: 46px;
-                heigth: 46px;
+                height: 46px;
             }
         }
     }
@@ -42,7 +45,7 @@ export const FooterContainer = styled.footer`
 
         img {
             width: 30px;
-            heigth: 27px;
+            height: 27px;
         }
     }
 `;

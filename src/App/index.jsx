@@ -3,19 +3,31 @@ import React from 'react';
 import { GlobalStyles } from '../Styles/GlobalStyles';
 //import Pages
 import { Home } from '@pages/home';
+import { Car } from '@pages/car';
 
 //import react router
-import { Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import { ShareComponent } from '@pages/shareComponents';
+
 
 //UI Aplication
+
 const App = () => {
 
-    return(
+    return (
         <React.Fragment>
-            <GlobalStyles/>
-            <Route path="/" element={<Home/>}/>
+            <GlobalStyles />
+            <Routes>
+
+                <Route path="/" element={<ShareComponent />}>
+                    <Route index element={<Home />} />
+                    <Route path="/car" element={<Car />} />
+                    {/* <Route path='*' element={<Error/>} /> */}
+                </Route>
+
+            </Routes>
         </React.Fragment>
     );
 };
 
-export {App};
+export { App };
