@@ -14,6 +14,10 @@ export const HeaderStyle = styled.main`
     justify-content: center;
     align-items: flex-end;
 
+    @media (min-width: 900px) {
+        align-items: center;
+    }
+
     div {
         width: 80%;
         display: flex;
@@ -27,11 +31,20 @@ export const HeaderStyle = styled.main`
             color: ${variables.colors.blue};
             font-size: 2.5rem;
             font-weight: bold;
+
+            @media (min-width: 900px) {
+                font-size: 4rem;
+            }
         }
         p {
             color: #fff;
             font-size: 1rem;
             text-align: center;
+            
+            @media (min-width: 900px) {
+                max-width: 700px;
+                font-size: 1.2rem;
+            }
         }
         button {
             width: 130px;
@@ -42,6 +55,7 @@ export const HeaderStyle = styled.main`
             font-size: 1rem;
             color: ${variables.colors.blue};
             font-weight: bold;
+            cursor: pointer;
 
             :hover {
                 background: ${variables.colors.blue};

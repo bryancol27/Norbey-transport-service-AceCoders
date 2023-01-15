@@ -23,6 +23,7 @@ const Testimonials = () => {
 
                     { dummyArray.map((e, i) => (
                         <div className='testimonials__cards__card' key={i}>
+                            <h4 className='nameTestimonial_desktop'>Name Testimonial</h4>
                             <img 
                                 className='comment-img' 
                                 src="/ContentPage/iconComillas.png" 
