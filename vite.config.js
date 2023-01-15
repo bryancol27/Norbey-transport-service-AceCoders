@@ -25,13 +25,14 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@components': path.resolve(__dirname, './src/components'),
-            '@containers': path.resolve(__dirname, './src/containers'),
-            '@styles': path.resolve(__dirname, './src/styles'),
-            '@templates': path.resolve(__dirname, './src/templates'),
-            '@utils': path.resolve(__dirname, './src/utils'),
+            '@components': path.resolve(__dirname, './src/Components'),
+            '@containers': path.resolve(__dirname, './src/Containers'),
+            '@styles': path.resolve(__dirname, './src/Styles'),
+            '@templates': path.resolve(__dirname, './src/Templates'),
+            '@utils': path.resolve(__dirname, './src/Utils'),
             '@context': path.resolve(__dirname, './src/Context'),
-            '@pages': path.resolve(__dirname, './src/pages')
+            '@pages': path.resolve(__dirname, './src/Pages')
+            
         }
     }
 });
