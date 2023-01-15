@@ -11,7 +11,7 @@ const Experience = () => {
     const dummyObject = [1,1,1,1,1];
 
     return(
-        <ExperienceTemplate>
+        <ExperienceTemplate id="experience">
             <article className='experience__content'>
                 <h2>Experience</h2>
 

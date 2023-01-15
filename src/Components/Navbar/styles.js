@@ -44,7 +44,7 @@ export const Nav = styled.nav`
        transition: .5s ease-in-out ;
 
 
-       a{
+    a{
         width: 100%;
         height: 50px;
         line-height: 50px;
@@ -57,6 +57,9 @@ export const Nav = styled.nav`
         background: rgba(0,0,0,20%);
        }
        
+    }
+    .test{
+        display: none;
     }
     .hidden{
          bottom: 0px; 

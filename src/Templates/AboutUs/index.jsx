@@ -3,7 +3,7 @@ import { AboutUsTemplate } from './styles';
 
 const AboutUS = () => {
     return (
-        <AboutUsTemplate>
+        <AboutUsTemplate id="about">
             <div>
                 <h1>ABOUT US</h1>
                 <p>

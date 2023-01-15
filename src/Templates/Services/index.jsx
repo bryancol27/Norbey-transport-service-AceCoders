@@ -45,7 +45,7 @@ const Services = () => {
     };
 
     return (
-        <SectionServices>
+        <SectionServices id="services">
             <h1>Services</h1>
             <p>
                 Lorem Ipsum is simply dummy text of the printing the 1500s, when

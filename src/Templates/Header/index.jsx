@@ -3,7 +3,7 @@ import { HeaderStyle } from './styles';
 
 const Header = () => {
     return (
-        <HeaderStyle>
+        <HeaderStyle id="inicio">
             <div>
                 <h1>TITLE TRAVEL</h1>
                 <p>

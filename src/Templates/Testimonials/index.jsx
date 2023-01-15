@@ -8,7 +8,7 @@ const Testimonials = () => {
     const dummyArray = [1,1,1];
 
     return (
-        <TestimonialsContainer>
+        <TestimonialsContainer id="testimonials">
             <h2>Testimonials</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit el son Velit debitis quo repellendus soluta.</p>
