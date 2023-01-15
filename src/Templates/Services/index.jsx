@@ -29,6 +29,10 @@ const Services = () => {
     const viewSwiper = (widthScreen) => {
         switch (true) {
             case widthScreen > 900:
+                return 4;
+                break;
+
+            case widthScreen > 700:
                 return 3;
                 break;
 

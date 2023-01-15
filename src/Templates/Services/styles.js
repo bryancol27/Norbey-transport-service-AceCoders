@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 //import variable sof colors
 import { variables } from '../../Styles/Variables';
-
 
 export const SectionServices = styled.section`
     width: 100%;
@@ -14,12 +13,12 @@ export const SectionServices = styled.section`
     gap: 2rem;
     padding: 0px 1rem;
 
-    h1{
+    h1 {
         font-size: 60px;
         color: #fff;
     }
 
-    p{
+    p {
         color: #fff;
         font-size: 18px;
         font-weight: bold;
@@ -27,24 +26,24 @@ export const SectionServices = styled.section`
         text-align: center;
     }
 
-    .containSwiper{
+    .containSwiper {
         width: 100%;
         height: 300px;
 
-        div{
-            figure{
+        div {
+            figure {
                 position: relative;
                 width: 200px;
                 height: 200px;
                 overflow: hidden;
                 border-radius: 15px;
-                image{
-                    width:100%;
+                image {
+                    width: 100%;
                     height: 100%;
                     object-fit: cover;
                 }
             }
-            h5{
+            h5 {
                 position: absolute;
                 bottom: 10px;
                 left: 10px;
@@ -54,7 +53,7 @@ export const SectionServices = styled.section`
         }
     }
 
-    .servicesContain_Buttons{
+    .servicesContain_Buttons {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -62,7 +61,11 @@ export const SectionServices = styled.section`
         flex-direction: column;
         gap: 1rem;
 
-        button{
+        @media (min-width: 900px) {
+            flex-direction: row;
+        }
+
+        button {
             width: 80%;
             height: 50px;
             background: ${variables.colors.black};
@@ -71,8 +74,15 @@ export const SectionServices = styled.section`
             font-weight: 500;
             border: 2px solid #fff;
             border-radius: 5px;
-            svg{
-                margin-right: 10px
+            cursor: pointer;
+            
+            svg {
+                margin-right: 10px;
+            }
+
+            @media (min-width: 900px) {
+                max-width: 300px;
+                height: 60px;
             }
         }
     }
