@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 //import styles
-import { ContainOurCar } from "./styles";
+import { ContainOurCar } from './styles';
 
 //import navigate for the change route
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 const OurCar = () => {
 
@@ -11,7 +11,7 @@ const OurCar = () => {
 
     const goHome = () =>{
         redirect('/');
-    }
+    };
 
     return (
         <ContainOurCar>

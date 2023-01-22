@@ -9,9 +9,9 @@ const Testimonials = () => {
 
     return (
         <TestimonialsContainer id="testimonials">
-            <h2>Testimonials</h2>
+            <h2>Testimonios</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit el son Velit debitis quo repellendus soluta.</p>
+            <p className='title'>Lorem ipsum dolor sit amet consectetur adipisicing elit el son Velit debitis quo repellendus soluta.</p>
 
             <div className='testimonials__cards'>
 

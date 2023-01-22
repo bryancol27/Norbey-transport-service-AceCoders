@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 //import components globals
 import { Navbar } from '@components/Navbar';
 import { Footer } from '@components/Footer';
@@ -17,6 +17,6 @@ const ShareComponent = () => {
             <Footer/>
         </React.Fragment>
     );
-}
+};
 
 export {ShareComponent};

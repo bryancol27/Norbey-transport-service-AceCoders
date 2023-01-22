@@ -31,6 +31,7 @@ export const HeaderStyle = styled.main`
             color: ${variables.colors.blue};
             font-size: 2.5rem;
             font-weight: bold;
+            text-align: center;
 
             @media (min-width: 900px) {
                 font-size: 4rem;
@@ -40,7 +41,7 @@ export const HeaderStyle = styled.main`
             color: #fff;
             font-size: 1rem;
             text-align: center;
-            
+
             @media (min-width: 900px) {
                 max-width: 700px;
                 font-size: 1.2rem;

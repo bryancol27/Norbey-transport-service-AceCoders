@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 //import variables of colors
-import { variables } from "@styles/Variables";
+import { variables } from '@styles/Variables';
 
 export const ContainOurCar = styled.section`
     width: 100%;

@@ -5,7 +5,7 @@ const AboutUS = () => {
     return (
         <AboutUsTemplate id="about">
             <div>
-                <h1>ABOUT US</h1>
+                <h1>SOBRE NOSOTROS</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Labore quia voluptatibus culpa debitis cumque magni quam
