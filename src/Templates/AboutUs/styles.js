@@ -26,7 +26,7 @@ export const AboutUsTemplate = styled.section`
             font-weight: 800;
         }
         p {
-            text-align: center;
+            text-align: justify;
             color: ${variables.colors.text};
         }
     }

@@ -45,7 +45,7 @@ export const TestimonialsContainer = styled.section`
 
         &__card {
             width: 100%;
-            height: 140px;
+            height: 180px;
             position: relative;
             border-radius: 20px;
             padding: 10px;
@@ -86,15 +86,16 @@ export const TestimonialsContainer = styled.section`
                 @media (min-width: 900px) {
                     width: 120px;
                     right: 36%;
-                    top: 50px;
+                    top: 30px;
                 }
             }
 
             .person-img {
-                width: 100px;
-                @media (min-width: 900px) {
-                    width: 120px;
-                }
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+                border-radius: 50%;
+                
             }
 
             .texts {
@@ -118,12 +119,13 @@ export const TestimonialsContainer = styled.section`
                 }
 
                 p {
-                    font-size: 18px;
+                    font-size: 12px;
                     text-align: start;
                     font-weight: bold;
                     color: #416374;
                     @media (min-width: 900px) {
                         text-align: center;
+                        font-size: 16px;
                     }
                 }
             }

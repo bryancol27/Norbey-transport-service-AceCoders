@@ -18,7 +18,7 @@ const OurCar = () => {
             <button onClick={goHome}>Go To Home</button>
             <div>
                 <h1>Our Driver</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. binterpe specimen book. It has survived not.</p>
+                <p>Nuestro conductor, [Nombre], es un profesional experimentado y altamente capacitado. Es un conductor seguro y responsable, con un amplio conocimiento de las carreteras y las rutas de viaje. Está comprometido con proporcionar un servicio de alta calidad, asegurando que los clientes lleguen a su destino de manera segura y puntual, [Nombre] es la elección perfecta.</p>
                 <h2>⭐⭐⭐⭐⭐</h2>
             </div>
             <div>

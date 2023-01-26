@@ -7,9 +7,7 @@ const Header = () => {
             <div>
                 <h1>Comienza a viajar hoy</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Facilis dicta officiis quae, sint a pariatur doloremque
-                    molestiae. Consequatur a sed labore.
+                ¡Comienza hoy a viajar y descubre el mundo! Ya sea que estés buscando unas vacaciones relajantes ,tenemos la solución perfecta para ti. Ofrecemos una amplia variedad de opciones de viajes ¡No pierdas más tiempo y comienza hoy a planificar tu próximo viaje!
                 </p>
                 <a href="#services">
                     <button>Viaja hoy</button>  

@@ -5,10 +5,11 @@ import { ExperienceTemplate } from './styles';
 
 // Import Icons
 import * as Icon from 'react-feather';
+//import data experience
+import { ExpercienceData } from '@utils/dataExperience';
 
 const Experience = () => {
 
-    const dummyObject = [1,1,1,1,1];
 
     return(
         <ExperienceTemplate id="experience">
@@ -17,10 +18,10 @@ const Experience = () => {
 
                 <div className='list-experience'>
 
-                    { dummyObject.map((e, i) => (
+                    { ExpercienceData.map((e, i) => (
                         <div className='list-experience-buble' key={i}>
                             <Icon.CheckCircle color='white' size={53}/>
-                            <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nih</p>
+                            <p className='text'>{e.text}</p>
                         </div>
                     )) }
 

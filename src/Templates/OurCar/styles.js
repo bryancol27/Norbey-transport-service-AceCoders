@@ -15,7 +15,15 @@ export const ContainOurCar = styled.section`
     padding: 1rem 1rem;
     position: relative;
 
-    button{
+    @media (min-width: 900px) {
+        align-items: center;
+        height: 100vh;
+    }
+
+    button {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
         padding: 10px 30px;
         background: ${variables.colors.black};
         color: #fff;
@@ -25,27 +33,31 @@ export const ContainOurCar = styled.section`
         border-radius: 5px;
         cursor: pointer;
     }
-    div{
+    div {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 1rem;
-        h1{
+        margin-top: 4rem;
+
+        h1 {
             font-size: 36px;
             color: #fff;
         }
-        p{
+        p {
             text-align: center;
             color: ${variables.colors.text};
             font-weight: bold;
         }
-        h2{
+        h2 {
             font-size: 2rem;
         }
     }
-    div:nth-child(3){
-        li{
+    div:nth-child(3) {
+        width: 100%;
+        align-items: flex-start;
+        li {
             text-align: center;
             color: ${variables.colors.text};
             font-weight: bold;
@@ -53,13 +65,21 @@ export const ContainOurCar = styled.section`
             line-height: 27px;
         }
     }
-    figure{
+
+    figure {
         position: absolute;
         bottom: 0px;
-        left: 0px;
+        right: 0px;
         width: 370px;
 
-        img{
+        @media (min-width: 400px) {
+            width: 90%;
+            max-width: 60%;
+            left: none;
+            right: 0px !important;
+        }
+
+        img {
             width: 100%;
             object-fit: contain;
         }

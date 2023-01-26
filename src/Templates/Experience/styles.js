@@ -56,7 +56,7 @@ export const ExperienceTemplate = styled.section`
 
                     @media (min-width: 950px) {
                         max-width: 500px;
-                        font-size: 28px;
+                        font-size: 16px;
                     }
                 }
             }
