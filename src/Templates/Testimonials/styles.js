@@ -23,11 +23,12 @@ export const TestimonialsContainer = styled.section`
         margin-bottom: 25px;
     }
 
-    p {
+    p.title {
         text-align: center;
         color: ${variables.colors.text};
         font-weight: 500;
         font-size: 22px;
+        margin-bottom: 50px;
     }
 
     .testimonials__cards {

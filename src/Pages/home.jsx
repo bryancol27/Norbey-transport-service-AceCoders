@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 //import Components
-import { Navbar } from '../Components/Navbar';
-import { Footer } from '@components/Footer';
+// import { Navbar } from '../Components/Navbar';
+// import { Footer } from '@components/Footer';
 
 //import Templates
 import { Header } from '../Templates/Header';
@@ -20,7 +20,7 @@ const Home = () => {
             <Testimonials />
             <Services />
         </React.Fragment>
-    )
-}
+    );
+};
 
 export { Home };

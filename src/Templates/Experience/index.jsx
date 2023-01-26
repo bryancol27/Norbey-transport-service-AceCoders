@@ -13,7 +13,7 @@ const Experience = () => {
     return(
         <ExperienceTemplate id="experience">
             <article className='experience__content'>
-                <h2>Experience</h2>
+                <h2>Experiencia</h2>
 
                 <div className='list-experience'>
 
