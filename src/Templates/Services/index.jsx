@@ -46,9 +46,7 @@ const Services = () => {
         <SectionServices id="services">
             <h1>Services</h1>
             <p>
-                Lorem Ipsum is simply dummy text of the printing the 1500s, when
-                an unknown prambled it to make a type specimen book. It has
-                survived not.{' '}
+                Conoce los destinos a los que puedes llegar con nosotros, ¿Qué esperas para comenzar a viajar?.
             </p>
 
             <div className="containSwiper">

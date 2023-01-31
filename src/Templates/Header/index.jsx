@@ -7,9 +7,7 @@ const Header = () => {
             <div>
                 <h1>Comienza a viajar hoy</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Facilis dicta officiis quae, sint a pariatur doloremque
-                    molestiae. Consequatur a sed labore.
+                Norby Transport tiene como finalidad brindar a nuestro cliente seguridad en su trayecto además de la experiencia de todo el personal que se involucrara directamente en tus recorridos.
                 </p>
                 <a href="#services">
                     <button>Viaja hoy</button>  

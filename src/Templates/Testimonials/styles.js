@@ -45,7 +45,7 @@ export const TestimonialsContainer = styled.section`
 
         &__card {
             width: 100%;
-            height: 140px;
+            /* height: 140px; */
             position: relative;
             border-radius: 20px;
             padding: 10px;
@@ -86,15 +86,18 @@ export const TestimonialsContainer = styled.section`
                 @media (min-width: 900px) {
                     width: 120px;
                     right: 36%;
-                    top: 50px;
+                    top: 10px;
                 }
             }
 
             .person-img {
+                border-radius: 50%;
+                object-fit: cover;
                 width: 100px;
-                @media (min-width: 900px) {
+                height: 100px;
+                /* @media (min-width: 900px) {
                     width: 120px;
-                }
+                } */
             }
 
             .texts {

@@ -7,9 +7,7 @@ const AboutUS = () => {
             <div>
                 <h1>SOBRE NOSOTROS</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore quia voluptatibus culpa debitis cumque magni quam
-                    suscipit ratione cum, quas nam quisquam unde!
+                Viaja, conoce y transpórtate a múltiples zonas de la mano de Norbey Transport Service; te ofrecemos un amplio catálogo de destinos en las cuales contamos con experiencia para que tengas excelentes recuerdos de tus travesías. 
                 </p>
             </div>
             <figure>

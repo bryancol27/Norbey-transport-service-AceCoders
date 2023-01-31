@@ -3,15 +3,18 @@ import React from 'react';
 // Import custom styles
 import { TestimonialsContainer } from './styles';
 
-const Testimonials = () => {
+// Import data
+import { dataTestimonials } from '@utils/dataTestimonials';
 
-    const dummyArray = [1,1,1];
+const Testimonials = () => {
 
     return (
         <TestimonialsContainer id="testimonials">
             <h2>Testimonios</h2>
 
-            <p className='title'>Lorem ipsum dolor sit amet consectetur adipisicing elit el son Velit debitis quo repellendus soluta.</p>
+            <p className='title'>
+                Conoce un poco sobre lo que piensan nuestros clientes sobre nosotros: 
+            </p>
 
             <div className='testimonials__cards'>
 
@@ -21,9 +24,9 @@ const Testimonials = () => {
                     
                     {/* Example container */}
 
-                    { dummyArray.map((e, i) => (
+                    { dataTestimonials.map((e, i) => (
                         <div className='testimonials__cards__card' key={i}>
-                            <h4 className='nameTestimonial_desktop'>Name Testimonial</h4>
+                            <h4 className='nameTestimonial_desktop'>{e.name}</h4>
                             <img 
                                 className='comment-img' 
                                 src="/ContentPage/iconComillas.png" 
@@ -32,13 +35,13 @@ const Testimonials = () => {
 
                             <img  
                                 className="person-img" 
-                                src="/ContentPage/Ellipse 2.png" 
+                                src={e.imgUrl}
                                 alt="Person testimonial" 
                             />
 
                             <div className='texts'>
-                                <h4>Name Testimonial</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesettingas betrys sta oived not.</p>
+                                <h4>{e.name}</h4>
+                                <p>{e.description}</p>
                             </div>
                         </div>
                     )) }
