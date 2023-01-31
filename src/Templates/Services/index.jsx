@@ -46,7 +46,7 @@ const Services = () => {
         <SectionServices id="services">
             <h1>Services</h1>
             <p>
-                Estos son algunos de los lugares turisticos que ofrecemos. ¡No te quedes sin visitarlos!
+                Conoce los destinos a los que puedes llegar con nosotros, ¿Qué esperas para comenzar a viajar?.
             </p>
 
             <div className="containSwiper">
@@ -90,7 +90,7 @@ const Services = () => {
                 </button> */}
                 <button onClick={goCar}>
                     <Truck color="#fff" size={18} />
-                    View Cars
+                    View Car
                 </button>
             </div>
         </SectionServices>
