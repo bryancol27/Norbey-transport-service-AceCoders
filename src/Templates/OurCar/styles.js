@@ -53,6 +53,10 @@ export const ContainOurCar = styled.section`
         h2 {
             font-size: 2rem;
         }
+
+        @media (max-width: 400px) {
+            /* margin-top:; */
+        }
     }
     div:nth-child(3) {
         width: 100%;
@@ -77,6 +81,11 @@ export const ContainOurCar = styled.section`
             max-width: 60%;
             left: none;
             right: 0px !important;
+        }
+        @media (max-width: 400px) {
+            position: static;
+            width: 100%;
+            max-width: 350px;
         }
 
         img {
