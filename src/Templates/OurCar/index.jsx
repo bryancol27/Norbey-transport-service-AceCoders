@@ -32,7 +32,7 @@ const OurCar = () => {
                 </ul>
             </div>
             <figure>
-                <img src="/Car/car.svg" alt="car" />
+                <img src="/Car/car.png" alt="car" />
             </figure>
 
         </ContainOurCar>

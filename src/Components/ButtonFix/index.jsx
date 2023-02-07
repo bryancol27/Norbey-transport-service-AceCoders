@@ -3,7 +3,7 @@ import React from 'react';
 import { ButtonFixStyle } from './styles';
 
 const ButtonFix = () => {
-    return <ButtonFixStyle>Viajar Ahora!</ButtonFixStyle>;
+    return <ButtonFixStyle href='#services' >Viajar Ahora!</ButtonFixStyle>;
 };
 
 export { ButtonFix };

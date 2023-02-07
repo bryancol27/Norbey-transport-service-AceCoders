@@ -14,7 +14,7 @@ const ShareComponent = () => {
         <React.Fragment>
             {pathname == '/' && <Navbar />}
             <Outlet />
-            <ButtonFix />
+            {pathname == '/' && <ButtonFix />}
             <Footer />
         </React.Fragment>
     );
