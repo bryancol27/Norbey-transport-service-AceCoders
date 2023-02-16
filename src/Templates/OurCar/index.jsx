@@ -18,7 +18,7 @@ const OurCar = () => {
             <button onClick={goHome}>Go To Home</button>
             <div>
                 <h1>Our Driver</h1>
-                <p>Nuestro conductor Norbey, es un profesional experimentado y altamente capacitado. Es un conductor seguro y responsable, con un amplio conocimiento de las carreteras y las rutas de viaje. Está comprometido con proporcionar un servicio de alta calidad, asegurando que los clientes lleguen a su destino de manera segura y puntual, Norbey es la elección perfecta.</p>
+                <p>Nuestro conductor Norby, es un profesional experimentado y altamente capacitado. Es un conductor seguro y responsable, con un amplio conocimiento de las carreteras y las rutas de viaje. Está comprometido con proporcionar un servicio de alta calidad, asegurando que los clientes lleguen a su destino de manera segura y puntual, Norby es la elección perfecta.</p>
                 <h2>⭐⭐⭐⭐⭐</h2>
             </div>
             <div>
